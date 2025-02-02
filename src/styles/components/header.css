@@ -84,6 +84,11 @@ body > header{
     color: var(--primary-lightGray);
   }
 
+  .menu-mobile > a{
+    font-size: 25px;
+    color: var(--primary-lightGray);
+  }
+
   .menu-mobile > i:nth-child(2){
     color: var(--primary-lightGreen);
   }
