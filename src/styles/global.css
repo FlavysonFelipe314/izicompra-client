@@ -1,0 +1,39 @@
+:root {
+  --primary-background: #dee0e5;
+  --primary-white: #ffffff;
+  --primary-black: #01020a;
+  --primary-lightGray: #cccccc;
+  --primary-darkGray: #666;
+  --primary-green: #5dc086;
+  --primary-orange: #e2921b;
+  --primary-lightGreen: #79B5BF;
+  --primary-red: #f05252;
+  --primary-blue: #6b9efc;
+
+  --hover-green: #50a172;
+  --hover-lightGreen: #65969e;
+  --hover-orange: #c47d13;
+
+
+}
+
+html,
+body {
+  height: 100%;
+  position: relative;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  width: 100%;
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 0 2%;
+}
+
+@media screen and (max-width: 1000px) {
+  html,
+  body {
+    height: auto;
+  }
+}

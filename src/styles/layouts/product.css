@@ -1,0 +1,159 @@
+section.details{
+    margin: 20px 0;
+}
+
+section.details > .container{
+    display: flex;
+}
+
+section.details .photo-item{
+    padding: 0 10px 0 0;
+    width: 50%;
+}
+
+section.details .photo-item .options{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding: 20px 20px 0 0;
+}
+
+section.details .photo-item .options i{
+    margin: 0 0 0 10px;
+    color: var(--primary-darkGray);
+    font-size: 20px;
+    cursor: pointer;
+}
+
+section.details .photo-item .options i:hover{
+    color: var(--primary-lightGreen);
+}
+
+section.details .principal{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid var(--primary-lightGray);
+    border-radius: 10px;
+}
+
+section.details .principal img{
+    width: 350px;
+}
+
+section.details .minimal img{
+    width: 100px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 15px 0 0 0;
+}
+
+section.details .minimal .active-item,
+section.details .minimal img:hover{
+    border: 1px solid var(--primary-darkGray);
+}
+
+section.details form {
+    width: 50%;
+}
+
+section.details form .title{
+    border-bottom: 1px solid var(--primary-lightGray);
+    margin: 0 0 20px 0;
+}
+
+section.details form .title h2{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+section.details form .title p{
+    font-size: 16px;
+    color: var(--primary-darkGray);
+    margin: 20px 0;
+}
+
+section.details form textarea{
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid var(--primary-lightGray);
+    resize: none;
+    height: 100px;
+    padding: 10px;
+}
+
+section.details form > p{
+    font-size: 14px;
+    color: var(--primary-lightGray);
+    margin: 10px 0 20px 0;
+} 
+
+section.details .price{
+    margin: 20px 0;
+    border-top: 1px solid var(--primary-lightGray);
+}
+
+section.details .price h1{
+    font-size: 30px;
+    font-weight: 600;
+    color: var(--primary-lightGreen);
+    margin: 20px 0;
+}
+
+section.details .price .options{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section.details .price .quantity{
+    width: 49%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid var(--primary-orange);
+    height: 45px;
+    color: var(--primary-orange);
+}
+
+section.details .price button{
+    width: 49%;
+}
+
+@media screen and (max-width:1000px) {
+    section.details > .container{
+        flex-direction: column;
+    }
+
+    section.details .photo-item{
+        padding: 0;
+        width: 100%;
+    }
+
+    section.details form {
+        width: 100%;
+        margin: 20px 0;
+    }
+}
+
+@media screen and (max-width:500px) {
+    section.details .principal img{
+        width: 100%;
+    }
+
+    section.details .minimal img{
+        width: 50px;
+    }
+
+    section.details .price h1,
+    section.details form .title h2{
+        font-size: 22px;
+    }
+    
+    
+}

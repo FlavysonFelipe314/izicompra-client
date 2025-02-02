@@ -1,0 +1,10 @@
+.search{
+    width: 400px;
+    display: flex;
+    align-items: center;
+}
+
+.search > button{
+    width: 100px;
+    margin: 0 0 0 10px;
+}
