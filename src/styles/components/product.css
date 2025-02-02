@@ -64,10 +64,12 @@ section.products .products-single .heart i:hover{
 
 section.products .products-single p{
     font-size: 18px;
+    color: var(--primary-darkGray);
 }
 
 section.products .products-single h3{
     margin: 10px 0 0 0;
+    color: var(--primary-lightGreen);
 }
 
 
